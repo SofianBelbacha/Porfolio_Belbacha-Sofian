@@ -19,6 +19,6 @@ window.addEventListener('scroll', function() {
 });
 
 function openPDF() {
-    window.open("image/cv.pdf", '_blank');
+    window.open("image/CV_Belbacha.pdf", '_blank');
   }
   

@@ -120,6 +120,7 @@ body{
     position: absolute;
     transform: matrix(1, 0.102, 0, 2, 0, 0);
     bottom: -25px;
+    z-index: 3;
 }
 
 .header::after {
@@ -136,7 +137,7 @@ body{
 
 .carousel {
     position: absolute;
-    z-index: -1;
+    /*z-index: -1;*/
     height: 100vh;
 }
 
@@ -160,6 +161,7 @@ body{
     max-width: 380px;
     top: 30%;
     padding-left: 20px;
+    /*z-index: -1;*/
 }
 
 .carousel-item .slider-item .content .title{
@@ -171,6 +173,7 @@ body{
     border-radius: 0;
     padding-left: 25px;
     padding-right: 25px;
+    z-index: 0;
 }
 
 .soft-skills{
@@ -316,6 +319,7 @@ section h2.title-section {
 
 .portfolio .container-fluid .col-md-4 .overlay:hover{
     opacity: .9;
+    cursor: pointer;
 }
 
 .text-center-overlay {
