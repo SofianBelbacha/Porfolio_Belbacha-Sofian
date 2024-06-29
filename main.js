@@ -23,6 +23,6 @@ function openPDF() {
   }
 
 document.querySelector('.overlay').addEventListener('click', function() {
-    window.location.href = 'details_portfolio.html'; // Remplacez 'votre_page.html' par le chemin de votre page HTML
+    window.location.href = 'details_portfolio.php'; // Remplacez 'votre_page.html' par le chemin de votre page HTML
 });
 
