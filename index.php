@@ -267,7 +267,7 @@
                         <li class="breadcrumb-item active" aria-current="page" id="Profil">Portfolio</li>
                     </ol>
                 </nav>
-                <h2 class="text-center title-section mb-3">Portfolio BTSSIO</h2>
+                <h2 class="text-center title-section mb-3">Portfolio</h2>
                 <p class="text-center">Vous trouverez dans cette section quelque uns de mes projets réalisé en bts sio</p>
             </div>
             <div class="row mt-5 g-0">
