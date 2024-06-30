@@ -27,7 +27,7 @@
                         <div class="info_item">
                             <i class="lnr lnr-phone-handset"></i>
                             <h6><a href="#">33 7 58 97 96 16</a></h6>
-                            <p>Mon to Fri 9am to 6 pm</p>
+                            <p>Du Lundi au Vendredi</p>
                         </div>
                         <div class="info_item">
                             <i class="lnr lnr-envelope"></i>
@@ -37,7 +37,7 @@
                     </div>
                 </div>
                 <div class="col-lg-9">
-                    <form class="row contact_form" action="contact_process.php" method="post" id="contactForm"
+                    <form class="row contact_form" action="email.class.php" method="post" id="contactForm"
                         novalidate="novalidate">
                         <div class="col-md-6">
                             <div class="form-group">
@@ -130,10 +130,7 @@
             </div>
             <div class="row">
                 <div class="social-media">
-                    <a href="#" target="_blank" class="me-3"><img src="image/facebook.png" title="facebook"></a>
-                    <a href="#" target="_blank" class="me-3"><img src="image/twitter.png" title="twitter"></a>
-                    <a href="#" target="_blank" class="me-3"><img src="image/instagram.png" title="instagram"></a>
-        
+                    <a href="https://www.linkedin.com/in/sofian-belbacha/" target="_blank" class="me-3"><img src="image/linkedin.png" title="linkedin"></a>        
                 </div>
             </div>
         </div>

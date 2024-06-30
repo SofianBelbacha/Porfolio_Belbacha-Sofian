@@ -46,8 +46,14 @@
                 <div class="col-sm-12 col-md-12 col-lg-6 py-5 about-info-section">
                     <div class="about-information ms-lg-5 mx-md-5 mx-sm-2">
                         <h2 class="title-section mb-5">Je suis Sofian</h2>
-                        <p>Une personne très motivé prête à mettre en œuvre mes connaissances pour répondre à vos
-                            besoins en matière de création de sites web</p>
+                        <p>Je suis une personne extrêmement motivée, déterminée à utiliser mes compétences et mes 
+                            connaissances pour répondre de manière optimale à vos besoins en matière de création 
+                            de sites web et application desktop. Mon enthousiasme et mon engagement me poussent 
+                            à constamment rechercher des solutions innovantes et efficaces, afin de vous offrir 
+                            des résultats de qualité supérieure. Mon objectif est de mettre en œuvre tout ce 
+                            que j'ai appris et de continuer à m'améliorer pour vous fournir des services qui non 
+                            seulement répondent, mais dépassent vos attentes.
+                        </p>
                         <ul class="about-info mt-4 px-md-0 px-2">
                             <li class="d-flex"><span>Nom :</span> <span>Belbacha Sofian</span></li>
                             <li class="d-flex"><span>Date:</span> <span>24 Septembre 2004</span></li>
@@ -96,11 +102,11 @@
                     <div class="d-flex flex-column align-items-start mt-4">
                         <div class="d-flex justify-content-between w-100">
                             <p>JavaScript</p>
-                            <p class="me-3">70%</p>
+                            <p class="me-3">40%</p>
                         </div>
                         <div class="progress progress-lg" role="progressbar" aria-label="Warning example"
-                            aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 100%; height: 9px;">
-                            <div class="progress-bar" style="width: 70%; background-color: #d1002c;"></div>
+                            aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 100%; height: 9px;">
+                            <div class="progress-bar" style="width: 40%; background-color: #d1002c;"></div>
                         </div>
                     </div>
                 </div>
@@ -117,11 +123,11 @@
                     </div>
                     <div class="d-flex flex-column align-items-start mt-4">
                         <div class="d-flex justify-content-between w-100">
-                            <p>Java</p>
-                            <p class="me-3">70%</p>
+                            <p>GIT/Github</p>
+                            <p class="me-3">75%</p>
                         </div>
                         <div class="progress progress-lg" role="progressbar" aria-label="Warning example"
-                            aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 100%; height: 9px;">
+                            aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 100%; height: 9px;">
                             <div class="progress-bar" style="width: 70%; background-color: #d1002c;"></div>
                         </div>
                     </div>
@@ -268,7 +274,7 @@
                     </ol>
                 </nav>
                 <h2 class="text-center title-section mb-3">Portfolio</h2>
-                <p class="text-center">Vous trouverez dans cette section quelque uns de mes projets réalisé en bts sio</p>
+                <p class="text-center">Vous trouverez dans cette section quelque uns de mes projets</p>
             </div>
             <div class="row mt-5 g-0">
                 <div class="col-md-4">
