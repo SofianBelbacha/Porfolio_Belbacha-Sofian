@@ -14,7 +14,7 @@
 <body>
     <header class="header">
         <div class="row g-0">
-            <nav class="navbar navbar-expand-lg" style="z-index: 3;">
+            <nav class="navbar navbar-expand-lg" style="z-index: 100;">
                 <div class="container align-items-center mx-auto">
                     <a class="navbar-brand fw-bold fs-4" href="#">Sofian <span
                             style="color: #d1002c;">BELBACHA</span></a>
@@ -59,7 +59,7 @@
                     </div>
                 </div>
             </nav>
-            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-bs-pause="false">
                 <div class="carousel-inner">
                     <div class="carousel-item active" style="width: 100%;">
                         <div class="slider-item" style="background-image: url(image/a27_cleanup.jpg); height: 100vh;">

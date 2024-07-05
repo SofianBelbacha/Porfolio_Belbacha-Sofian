@@ -177,8 +177,9 @@
             </div>
             <div class="row mt-5">
                 <div class="col-12 col-md-6 col-lg-6 experiences-container col-sm-text-center">
-                    <div class="resume-wrap d-flex align-item-stretch aos-init aos-animate" data-aos="fade-up"
-                        data-aos-duration="1000" data-aos-delay="100">
+                    <div class="resume-wrap d-flex align-item-stretch aos-init aos-animate shadow p-2 " data-aos="fade-up"
+                         data-aos-duration="1000" data-aos-delay="100" style="cursor: pointer">
+                        <a href="https://www.education.gouv.fr/reussir-au-lycee/le-baccalaureat-technologique-1916" class="text-decoration-none text-reset" target="_blank">
                         <div class="w-100">
                             <div class="d-flex align-items-center mb-2">
                                 <div class="icon me-2"><img src="image/worker.png" style="max-width: 45px;"></div>
@@ -190,11 +191,13 @@
                                  m'offrant une base solide pour poursuivre mes études ou intégrer le monde professionnel.
                             </p>
                         </div>
+                        </a>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-6 experiences-container">
-                    <div class="resume-wrap d-flex align-item-stretch aos-init aos-animate" data-aos="fade-up"
+                    <div class="resume-wrap d-flex align-item-stretch aos-init aos-animate shadow p-2" data-aos="fade-up"
                         data-aos-duration="1000" data-aos-delay="400">
+                        <a href="https://www.orientation.com/diplomes/bts-services-informatiques-aux-organisations-option-b-solutions-logicielles-et-applications-metiers" target="_blank" class="text-decoration-none text-reset">
                         <div class="w-100">
                             <div class="d-flex align-items-center mb-2">
                                 <div class="icon me-2"><img src="image/worker.png" style="max-width: 45px;"></div>
@@ -207,6 +210,7 @@
                                 conception de systèmes d'information.
                             </p>
                         </div>
+                        </a>
                     </div>
                 </div>
             </div>
