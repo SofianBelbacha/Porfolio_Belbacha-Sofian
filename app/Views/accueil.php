@@ -280,13 +280,14 @@
             <div class="row mt-5 g-0">
                 <div class="col-md-4">
                     <div class="portfolio-work portfolio-img" style="background: url(<?php echo Chemins::IMAGES . 'Ap_web.png' ?>);">
+                        <a href="index.php?cas=afficherDetails">
                         <div class="overlay">
                             <div class="text-center-overlay p-4">
                                 <h3>Atelier professionnel du bts sio</h3>
                                 <p>Création d'une boutique en ligne dans dans un contexte de projet de fin d'année de
                                     bts</p>
                             </div>
-                        </div>
+                        </div></a>
                     </div>
                 </div>
                 <div class="col-md-4">

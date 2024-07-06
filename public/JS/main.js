@@ -22,7 +22,7 @@ function openPDF() {
     window.open("image/CV_Belbacha.pdf", '_blank');
   }
 
-document.querySelector('.overlay').addEventListener('click', function() {
-    window.location.href = 'details_portfolio.php'; // Remplacez 'votre_page.html' par le chemin de votre page HTML
-});
+//document.querySelector('.overlay').addEventListener('click', function() {
+//    window.location.href = 'app/Views/details_portfolio.php'; // Remplacez 'votre_page.html' par le chemin de votre page HTML
+//});
 

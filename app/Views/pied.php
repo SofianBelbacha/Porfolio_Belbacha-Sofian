@@ -128,9 +128,12 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="d-flex">
                 <div class="social-media">
                     <a href="https://www.linkedin.com/in/sofian-belbacha/" target="_blank" class="me-3"><img src="<?php echo Chemins::IMAGES . 'linkedin.png' ?>" title="linkedin"></a>        
+                </div>
+                <div class="social-media">
+                    <a href="https://github.com/SofianBelbacha/" target="_blank" class="me-3"><img src="<?php echo Chemins::IMAGES . 'github.png' ?>" title="github"></a>        
                 </div>
             </div>
         </div>

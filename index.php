@@ -1,7 +1,7 @@
 <?php
 
 require_once 'config/chemins.class.php';
-require Chemins::VUES . 'entete.inc.php';
+require Chemins::VUES . 'entete.php';
 
 
 
@@ -16,10 +16,10 @@ switch ($cas) {
             require Chemins::VUES . 'accueil.php';
             break;
         }
-    case 'afficherProduitsEnfants': {
-            require Chemins::VUES . 'v_enfants.inc.php';
+    case 'afficherDetails': {
+            require Chemins::VUES . 'details_portfolio.php';
             break;
         }
 }
 
-require Chemins::VUES . 'pied.inc.php';
+require Chemins::VUES . 'pied.php';
