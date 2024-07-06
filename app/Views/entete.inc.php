@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="<?php echo Chemins::STYLES . 'main.css' ?>">
     <title>Portfolio Belbacha Sofian</title>
 </head>
 
@@ -33,7 +33,7 @@
                         <div class="offcanvas-body justify-content-end">
                             <ul class="navbar-nav mb-2 mb-lg-0 ">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="index.php">Accueil</a>
+                                    <a class="nav-link active" aria-current="page" href="index.php?cas=afficherAccueil">Accueil</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#Profil">Profil</a>
@@ -62,7 +62,7 @@
             <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-bs-pause="false">
                 <div class="carousel-inner">
                     <div class="carousel-item active" style="width: 100%;">
-                        <div class="slider-item" style="background-image: url(image/a27_cleanup.jpg); height: 100vh;">
+                        <div class="slider-item" style="background-image: url(<?php echo Chemins::IMAGES . 'a27_cleanup.jpg' ?>); height: 100vh;">
                             <div class="container">
                                 <div class="content">
                                     <h1 class="title">Bienvenue sur mon site web portfolio en ligne !</h1>
@@ -74,7 +74,7 @@
                         </div>
                     </div>
                     <div class="carousel-item" style="width: 100%;">
-                        <div class="slider-item" style="background-image: url(image/bg_1.jpg.webp); height:100vh;">
+                        <div class="slider-item" style="background-image: url(<?php echo Chemins::IMAGES . 'bg_1.jpg.webp' ?>); height:100vh;">
                             <div class="container">
                                 <div class="content">
                                     <h1 class="title">Bienvenue sur mon site web portfolio en ligne !</h1>
