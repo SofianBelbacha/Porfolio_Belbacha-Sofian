@@ -280,7 +280,7 @@
             <div class="row mt-5 g-0">
                 <div class="col-md-4">
                     <div class="portfolio-work portfolio-img" style="background: url(<?php echo Chemins::IMAGES . 'Ap_web.png' ?>);">
-                        <a href="index.php?cas=afficherDetails">
+                        <a href="index.php?controller=ShowPages&action=afficherDetails">
                         <div class="overlay">
                             <div class="text-center-overlay p-4">
                                 <h3>Atelier professionnel du bts sio</h3>

@@ -37,7 +37,7 @@
                     </div>
                 </div>
                 <div class="col-lg-9">
-                    <form class="row contact_form" action="email.class.php" method="post" id="contactForm"
+                    <form class="row contact_form" action="index.php?controller=Contact&action=sendMessageContact" method="post" id="contactForm"
                         novalidate="novalidate">
                         <div class="col-md-6">
                             <div class="form-group">
@@ -65,8 +65,34 @@
                         </div>
                         <div class="col-md-12">
                             <div class="text-end">
-                                <button type="submit" value="submit"
+                                <button type="submit" value="submit" 
                                     class="btn btn-danger btn-md border border-dark-subtle">Envoyer Message</button>
+                            </div>
+                        <!-- Modal pour afficher les erreurs -->
+                            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="errorModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="errorModalLabel"><?php echo isset($_SESSION['errors']) ? 'Erreur de Validation' : 'Confirmation Envoie'; ?></h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <?php if (!empty($_SESSION['errors'])): ?>
+                                                <ul>
+                                                    <?php foreach ($_SESSION['errors'] as $error): ?>
+                                                        <li><?php echo $error; ?></li>
+                                                    <?php endforeach; ?>
+                                                </ul>
+                                            <?php endif; ?>
+                                            <?php if (isset($_SESSION['confirmation']) && !empty($_SESSION['confirmation'])): ?>
+                                                <p><?php echo $_SESSION['confirmation']; ?></p>
+                                            <?php endif; ?>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </form>
@@ -143,6 +169,37 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
     <script src="<?php echo Chemins::JS . 'main.js' ?>"></script>
-</body>
+    <?php if (!empty($_SESSION['errors'])): ?>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                var myModal = new bootstrap.Modal(document.getElementById('staticBackdrop'), {
+                    backdrop: 'static',
+                    keyboard: false
+                });
+                myModal.show();
+            });
+        </script>
+        <?php
+        // Supprimer les erreurs de la session après les avoir affichées
+        unset($_SESSION['errors']);
+        ?>
+    <?php endif; ?>
+    <?php if (!empty($_SESSION['confirmation'])) { ?>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                var myModal = new bootstrap.Modal(document.getElementById('staticBackdrop'), {
+                    backdrop: 'static',
+                    keyboard: false
+                });
+                myModal.show();
+            });
+        </script>
+        <?php
+// Supprimer les erreurs de la session après les avoir affichées
+        unset($_SESSION['confirmation']);
+        ?>
+    <?php } ?>
 
-</html>
+    </body>
+
+    </html>

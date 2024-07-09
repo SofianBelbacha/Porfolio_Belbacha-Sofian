@@ -6,7 +6,7 @@ class Chemins {
     
     const VUES_ADMIN = "application/vues/partie_admin/";
         
-    const CONTROLEURS = "app/controllers/";
+    const CONTROLEURS = "app/controller/";
 
     const IMAGES = "public/image/";
     
@@ -17,5 +17,7 @@ class Chemins {
     const CONFIGS = "config/";
     
     const LIBS = "libs/";
+    
+    const VENDOR = "vendor/";
 }
 ?>

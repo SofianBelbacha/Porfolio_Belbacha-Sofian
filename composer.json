@@ -1,0 +1,20 @@
+{
+    "name": "portfolio_belbacha/composer",
+    "require": {
+        "phpmailer/phpmailer": "^6.9.1",
+        "filp/whoops": "^2.15",
+        "respect/validation": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "PortfolioBelbacha\\Composer\\": "src/",
+            "app\\Helpers\\": "app/Helpers/"
+        }
+    },
+    "authors": [
+        {
+            "name": "SofianBelbacha",
+            "email": "sofianbelbacha@gmail.com"
+        }
+    ]
+}

@@ -5,15 +5,15 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
 // Requires
-require 'PHPMailer-master/src/Exception.php';
-require 'PHPMailer-master/src/PHPMailer.php';
-require 'PHPMailer-master/src/SMTP.php';
+//require 'PHPMailer-master/src/Exception.php';
+//require 'PHPMailer-master/src/PHPMailer.php';
+//require 'PHPMailer-master/src/SMTP.php';
 
 /**
  * Classe permettant de gérer l'envoi d'email via la librairie PHPMailer.
  * @package https://github.com/PHPMailer/PHPMailer
  */
-class GestionEmail {
+class controllerContact {
 
     /**
      * Méthode statique permettant d'envoyer un e-mail pour le formulaire de contact.
@@ -55,22 +55,26 @@ class GestionEmail {
     
     public function sendMessageContact() {
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
-            $result = GestionEmail::envoie_mail($_POST["name"], $_POST["email"], $_POST["subject"], $_POST["message"]);
-            if ($result) {
-                // Redirection après l'envoi réussi
-                header('Location: index.php');
+            $errors = app\Helpers\Verification::validateContactForm($_POST);
+            if (empty($errors)) {
+                $result = controllerContact::envoie_mail($_POST["name"], $_POST["email"], $_POST["subject"], $_POST["message"]);
+                if ($result) {
+                    $_SESSION['confirmation'] = "Votre message a été envoyé avec succès.";
+                    // Redirection après l'envoi réussi
+                    header('Location: index.php');
+                    exit();
+                } 
+            }else {
+                $_SESSION['errors'] = $errors;
+                // Afficher les erreurs
+                header('Location: ' . $_SERVER['HTTP_REFERER']);
                 exit();
-            } else {
-                echo "L'envoi de l'email a échoué.";
+                
             }
-
         }
     }
     
 }
-    $gestionEmail = new GestionEmail();
-    $gestionEmail->sendMessageContact();
-
 
 // Test de la méthode : sendMailFromFormHelp()
 // GestionEmail::envoie_mail("monNom", "monPrenom", "monEmail", "monTelephone", "maDestination", "monNbDePersonnes", "monBudget", "maFormule", "autres");
