@@ -8,7 +8,7 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
     <link rel="stylesheet" href="<?php echo Chemins::STYLES . 'main.css' ?>">
-    <title>Portfolio Belbacha Sofian</title>
+    <title>Portfolio - Belbacha Sofian</title>
 </head>
 
 <body>
@@ -39,7 +39,7 @@
                                     <a class="nav-link" href="#Profil">Profil</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#compétences">Comepétence</a>
+                                    <a class="nav-link" href="#compétences">Compétences</a>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link" href="#Comepetence" role="button" data-bs-toggle="dropdown"
@@ -47,8 +47,9 @@
                                         Autres
                                     </a>
                                     <ul class="dropdown-menu mt-2">
+                                        <li><a class="dropdown-item dropdown-item-text" href="#Parcours">Parcours</a></li>
                                         <li><a class="dropdown-item dropdown-item-text" href="#Services">Services</a></li>
-                                        <li><a class="dropdown-item" href="#portfolio">Portfolio</a></li>
+                                        <li><a class="dropdown-item" href="#Portfolio">Portfolio</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item">
@@ -65,7 +66,7 @@
                         <div class="slider-item" style="background-image: url(<?php echo Chemins::IMAGES . 'a27_cleanup.jpg' ?>); height: 100vh;">
                             <div class="container">
                                 <div class="content">
-                                    <h1 class="title">Bienvenue sur mon site web portfolio en ligne !</h1>
+                                    <h1 class="title">Bienvenue sur mon site web portfolio !</h1>
                                     <p style="max-width: 370px;">Je suis Sofian, développeur en informatique. N'hésitez
                                         pas à consulter mes informations et compétences ou me contacter.</p>
                                     <a class="btn btn-danger btn-lg" href="#contact_area">Contact</a>
@@ -77,7 +78,7 @@
                         <div class="slider-item" style="background-image: url(<?php echo Chemins::IMAGES . 'bg_1.jpg.webp' ?>); height:100vh;">
                             <div class="container">
                                 <div class="content">
-                                    <h1 class="title">Bienvenue sur mon site web portfolio en ligne !</h1>
+                                    <h1 class="title">Bienvenue sur mon site web portfolio !</h1>
                                     <p style="max-width: 370px;">Vous trouverez toutes les infos me concernant tel que mon cv, mes compétences...</p>
                                     <a class="btn btn-danger btn-lg" onclick="openPDF()">Telecharger mon CV</a>
                                 </div>

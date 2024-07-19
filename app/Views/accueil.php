@@ -1,13 +1,12 @@
-<section class="about-section">
+<section class="about-section section" id="Profil">
         <div class="container">
             <div class="row">
-                <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb d-flex justify-content-center mb-1">
-                        <li class="breadcrumb-item active">Accueil</li>
-                        <li class="breadcrumb-item active" aria-current="page" id="Profil">Profil</li>
-                    </ol>
-                </nav>
-                <h2 class="text-center title-section">A propos</h2>
+                <div class="container">
+                    <div class="heading">
+                        <h3><b>À Propos</b></h3>
+                        <h6 class="font-lite-black"><b>À PROPOS DE MOI</b></h6>
+                    </div>
+                </div>
                 <div class="list-group list-group-horizontal-lg soft-skills">
                     <div
                         class="list-group-item list-group-item-action d-flex justify-content-center flex-column align-items-center">
@@ -65,175 +64,134 @@
             </div>
         </div>
     </section>
-    <section class="skills-section" id="compétences">
-        <div class="container-xl">
-            <div class="row d-flex justify-content-center">
-                <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb d-flex justify-content-center mb-1">
-                        <li class="breadcrumb-item active">Accueil</li>
-                        <li class="breadcrumb-item active" aria-current="page" id="Comepetence">Compétences</li>
-                    </ol>
-                </nav>
-                <h2 class="text-center title-section mb-3">Mes Compétences</h2>
-                <div class="col-sm-12 col-md-6 col-lg-4 py-5 hard-skills-section">
-                    <div class="d-flex flex-column align-items-start mt-4">
-                        <div class="d-flex justify-content-between w-100">
-                            <p>HTML</p>
-                            <p class="me-3">90%</p>
-                        </div>
-                        <div class="progress progress-lg" role="progressbar" aria-label="Warning example"
-                            aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 100%; height: 9px;">
-                            <div class="progress-bar" style="width: 90%; background-color: #d1002c;"></div>
-                        </div>
-                    </div>
-                    <div class="d-flex flex-column align-items-start mt-4">
-                        <div class="d-flex justify-content-between w-100">
-                            <p>CSS</p>
-                            <p class="me-3">85%</p>
-                        </div>
-                        <div class="progress progress-lg" role="progressbar" aria-label="Warning example"
-                            aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 100%; height: 9px;">
-                            <div class="progress-bar" style="width: 85%; background-color: #d1002c;"></div>
-                        </div>
-                    </div>
-                    <div class="d-flex flex-column align-items-start mt-4">
-                        <div class="d-flex justify-content-between w-100">
-                            <p>JavaScript</p>
-                            <p class="me-3">40%</p>
-                        </div>
-                        <div class="progress progress-lg" role="progressbar" aria-label="Warning example"
-                            aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 100%; height: 9px;">
-                            <div class="progress-bar" style="width: 40%; background-color: #d1002c;"></div>
-                        </div>
+    <section class="skills-section section" id="compétences">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+<!--                    <h2 class="text-center title-section mb-3">Mes Compétences</h2>-->
+                    <div class="heading">
+                        <h3><b>Mes Compétences</b></h3>
+                        <h6 class="font-lite-black"><b>COMPÉTENCES EN DÉVELOPPEMENT.</b></h6>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-4 py-5 hard-skills-section">
-                    <div class="d-flex flex-column align-items-start mt-4">
-                        <div class="d-flex justify-content-between w-100">
-                            <p>C#</p>
-                            <p class="me-3">80%</p>
-                        </div>
-                        <div class="progress progress-lg" role="progressbar" aria-label="Warning example"
-                            aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 100%; height: 9px;">
-                            <div class="progress-bar" style="width: 80%; background-color: #d1002c;"></div>
-                        </div>
-                    </div>
-                    <div class="d-flex flex-column align-items-start mt-4">
-                        <div class="d-flex justify-content-between w-100">
-                            <p>GIT/Github</p>
-                            <p class="me-3">75%</p>
-                        </div>
-                        <div class="progress progress-lg" role="progressbar" aria-label="Warning example"
-                            aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 100%; height: 9px;">
-                            <div class="progress-bar" style="width: 70%; background-color: #d1002c;"></div>
-                        </div>
-                    </div>
-                    <div class="d-flex flex-column align-items-start mt-4">
-                        <div class="d-flex justify-content-between w-100">
-                            <p>C++</p>
-                            <p class="me-3">40%</p>
-                        </div>
-                        <div class="progress progress-lg" role="progressbar" aria-label="Warning example"
-                            aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 100%; height: 9px;">
-                            <div class="progress-bar" style="width: 40%; background-color: #d1002c;"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-4 py-5 hard-skills-section">
-                    <div class="d-flex flex-column align-items-start mt-4">
-                        <div class="d-flex justify-content-between w-100">
-                            <p>PHP</p>
-                            <p class="me-3">75%</p>
-                        </div>
-                        <div class="progress progress-lg" role="progressbar" aria-label="Warning example"
-                            aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 100%; height: 9px;">
-                            <div class="progress-bar" style="width: 75%; background-color: #d1002c;"></div>
-                        </div>
-                    </div>
-                    <div class="d-flex flex-column align-items-start mt-4">
-                        <div class="d-flex justify-content-between w-100">
-                            <p>Bootstrap</p>
-                            <p class="me-3">80%</p>
-                        </div>
-                        <div class="progress progress-lg" role="progressbar" aria-label="Warning example"
-                            aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 100%; height: 9px;">
-                            <div class="progress-bar" style="width: 80%; background-color: #d1002c;"></div>
-                        </div>
-                    </div>
-                    <div class="d-flex flex-column align-items-start mt-4">
-                        <div class="d-flex justify-content-between w-100">
-                            <p>Jquery</p>
-                            <p class="me-3">30%</p>
-                        </div>
-                        <div class="progress progress-lg" role="progressbar" aria-label="Warning example"
-                            aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 100%; height: 9px;">
-                            <div class="progress-bar" style="width: 30%; background-color: #d1002c;"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-5">
-                <div class="col-12 col-md-6 col-lg-6 experiences-container col-sm-text-center">
-                    <div class="resume-wrap d-flex align-item-stretch aos-init aos-animate shadow p-2 " data-aos="fade-up"
-                         data-aos-duration="1000" data-aos-delay="100" style="cursor: pointer">
-                        <a href="https://www.education.gouv.fr/reussir-au-lycee/le-baccalaureat-technologique-1916" class="text-decoration-none text-reset" target="_blank">
-                        <div class="w-100">
-                            <div class="d-flex align-items-center mb-2">
-                                <div class="icon me-2"><img src="<?php echo Chemins::IMAGES . 'worker.png' ?>" style="max-width: 45px;"></div>
-                                <span class="date">2019-2022</span>
+                <div class="col-md-8">
+                    <div class="article4">
+                        <div class="content">
+                            <div class="titre-icone">
+                                <i class="fas fa-code fa-2x"></i>
+                                <h4>Compétences en développement</h4>
                             </div>
-                            <h2>Baccalaureat Technologique STMG</h2>
-                            <span class="position"><i class="ion-ios-pin me-2"></i>Lycée Henri IV.</span>
-                            <p class="mt-4">Le baccalauréat STMG m'a doté de compétences variées en gestion, économie et droit,
-                                 m'offrant une base solide pour poursuivre mes études ou intégrer le monde professionnel.
-                            </p>
-                        </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-6 experiences-container">
-                    <div class="resume-wrap d-flex align-item-stretch aos-init aos-animate shadow p-2" data-aos="fade-up"
-                        data-aos-duration="1000" data-aos-delay="400">
-                        <a href="https://www.orientation.com/diplomes/bts-services-informatiques-aux-organisations-option-b-solutions-logicielles-et-applications-metiers" target="_blank" class="text-decoration-none text-reset">
-                        <div class="w-100">
-                            <div class="d-flex align-items-center mb-2">
-                                <div class="icon me-2"><img src="<?php echo Chemins::IMAGES . 'worker.png' ?>" style="max-width: 45px;"></div>
-                                <span class="date">2022-2024</span>
+                            <div class="progress">
+                                <div class="progress-bar barre1" role="progressbar" style="width: 100.001%; overflow: hidden; background-color: #d1002c;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"><span><strong>Développement Web: Front-End</strong></span></div>
                             </div>
-                            <h2>BTS Service Informatique aux organisations</h2>
-                            <span class="position"><i class="ion-ios-pin me-2"></i>Lycée Marc Bloch Sérignan.</span>
-                             <p class="mt-4">Le BTS SIO, option SLAM, m'a permis de me spécialiser davantage dans le développement 
-                                d'applications et de solutions logicielles, renforçant ainsi mes compétences en programmation et en 
-                                conception de systèmes d'information.
-                            </p>
+                            <div class="link-competence">
+                                <h5>Compétences Associées</h5>
+                                <button type="button" class="btn btn-outline-danger btn-sm mb-1">HTML/CSS</button>
+                                <button type="button" class="btn btn-outline-danger btn-sm mb-1">Bootstrap</button>
+                                <button type="button" class="btn btn-outline-danger btn-sm mb-1">Jquery</button>
+                                <button type="button" class="btn btn-outline-danger btn-sm mb-1">JS</button>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar barre2" role="progressbar" style="width: 100.001%; overflow: hidden; background-color: #d1002c;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"><span><strong>Développement Web: Back-End</strong></span></div>
+                            </div>
+                            <div class="link-competence">
+                                <h5>Compétences Associées</h5>
+                                <button type="button" class="btn btn-outline-danger btn-sm mb-1">PHP</button>
+                                <button type="button" class="btn btn-outline-danger btn-sm mb-1">C#</button>
+                                <button type="button" class="btn btn-outline-danger btn-sm mb-1">Symfony</button>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar barre3" role="progressbar" style="width: 94.9997%; overflow: hidden; background-color: #d1002c;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"><span><strong>Base de Donnée</strong></span></div>
+                            </div>
+                            <div class="link-competence">
+                                <h5>Compétences Associées</h5>
+                                <button type="button" class="btn btn-outline-danger btn-sm mb-1">MySQL</button>
+                                <button type="button" class="btn btn-outline-danger btn-sm mb-1">MariaDB</button>
+                                <button type="button" class="btn btn-outline-danger btn-sm mb-1">SQL Server</button>
+                                <button type="button" class="btn btn-outline-danger btn-sm mb-1">PostgreSQL</button>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar barre3" role="progressbar" style="width: 94.9997%; overflow: hidden; background-color: #d1002c;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"><span><strong>Outils de Développement et de Déploiement Logiciel</strong></span></div>
+                            </div>
+                            <div class="link-competence">
+                                <h5>Compétences Associées</h5>
+                                <button type="button" class="btn btn-outline-danger btn-sm mb-1">GIT/Github</button>
+                                <button type="button" class="btn btn-outline-danger btn-sm mb-1">Docker</button>
+                            </div>
                         </div>
-                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="services-area">
-        <div class="container-fluid">
-            <div class="row no-gutters">
-                <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb d-flex justify-content-center mb-1">
-                        <li class="breadcrumb-item active">Accueil</li>
-                        <li class="breadcrumb-item active" aria-current="page" id="Services">Services</li>
-                    </ol>
-                </nav>
-                <h2 class="text-center title-section mb-3">Services</h2>
-                <p class="text-center">Vous trouverez dans cette section quelque uns de mes projets</p>
+    <section class="education-section section" id="Parcours">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="heading">
+                        <h3><b>Parcours</b></h3>
+                        <h6 class="font-lite-black"><b>MES DIPLOMES OBTENUS</b></h6>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="education-wrapper">
+                        <div class="education margin-b-50">
+                            <h4><b>BTS Service Informatique aux organisations</b></h4>
+                            <h5 class="font-yellow"><b>Lycée Marc Bloch Sérignan.</b></h5>
+                            <h6 class="font-lite-black margin-t-10">OBTENTION EN JUIN 2024 (2 ans)</h6>
+                            <p class="margin-tb-30">Le BTS Services Informatiques aux Organisations (SIO) option Solutions 
+                                Logicielles et Applications Métiers (SLAM) forme des professionnels capables de concevoir, 
+                                développer et maintenir des applications informatiques répondant aux besoins des entreprises. 
+                                Les compétences techniques acquises incluent :
+                            </p>
+                            <ul class="list margin-b-30 p-0">
+                                <li>Développement et Programmation : Maîtrise des langages de programmation 
+                                    (PHP, C# (.NET Framework), SQL, HTML, CSS)
+                                </li>
+                                <li>Bases de Données : Conception et gestion de bases de données relationnelles, 
+                                    rédaction de requêtes SQL, utilisation de SGBD (MySQL, SQL Server).
+                                </li>
+                                <li>Programmation orientée objet (C# et PHP) et modèle MVC</li>
+                                <li>Analyse et Conception : Utilisation des outils de modélisation (UML, MERISE), 
+                                    analyse des besoins utilisateurs.
+                                </li>
+                                <li>Tests et validation : Conception et réalisation de tests unitaires.
+                                </li>
+                                <li>Sécurité informatique : Principes de base de la sécurité des systèmes d'information, 
+                                    mise en œuvre de mesures de protection des données.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="education margin-b-50">
+                            <h4><b>Baccalaureat Technologique STMG</b></h4>
+                            <h5 class="font-yellow"><b>Lycée Henri IV.</b></h5>
+                            <h6 class="font-lite-black margin-t-10">OBTENTION EN JUIN 2022 (2 ans)</h6>
+                            <p class="margin-tb-30">Le baccalauréat STMG m'a doté de compétences variées en gestion,
+                            économie et droit, m'offrant une base solide pour poursuivre mes études ou intégrer le monde professionnel.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="row px-4 mt-4  d-flex justify-content-center">
+        </div>
+    </section>    
+    <section class="services-area section" id="Services">
+        <div class="container-md">
+            <div class="row d-flex justify-content-center">
+                <div class="container">
+                    <div class="heading">
+                        <h3><b>Services</b></h3>
+                        <h6 class="font-lite-black"><b>LES SERVICES QUE JE PROPOSE</b></h6>
+                    </div>
+                </div>
                 <div class="col-lg-4 col-md-5 col-sm-12">
                     <div class="card me-4 shadow rounded-0">
                         <div class="card-body d-flex flex-column align-items-center text-center">
                             <img src="<?php echo Chemins::IMAGES . 'ux-design.png' ?>" alt="">
                             <h5 class="card-title ">Developpement Front-end</h5>
                             <hr class="w-25 m-0 mt-1">
-                            <p class="card-text mt-4">services de développement front-end :
-                                 Spécialisé dans la création d'interfaces utilisateur interactives et conviviales.
+                            <p class="card-text mt-4">
+                                 Création d'interfaces utilisateur interactives et conviviales.
                             </p>
                         </div>
                     </div>
@@ -244,8 +202,8 @@
                             <img src="<?php echo Chemins::IMAGES . 'back-end.png' ?>" alt="">
                             <h5 class="card-title ">Developpement Back-end</h5>
                             <hr class="w-25 m-0 mt-1">
-                            <p class="card-text mt-4">services de développement back-end :
-                                Spécialisé dans la création de site web dynamique et bases sécurisées.
+                            <p class="card-text mt-4">
+                                Création de site web dynamique et bases de donnée sécurisées.
                             </p>
                         </div>
                     </div>
@@ -254,10 +212,10 @@
                     <div class="card me-4 shadow rounded-0">
                         <div class="card-body d-flex flex-column align-items-center text-center">
                             <img src="<?php echo Chemins::IMAGES . 'application.png' ?>" alt="">
-                            <h5 class="card-title ">Developpement application C#</h5>
+                            <h5 class="card-title ">Developpement application de bureau</h5>
                             <hr class="w-25 m-0 mt-1">
-                            <p class="card-text mt-4">Développer des applications de bureau en C# : 
-                                Spécialisé dans la création des logiciels c# performants et pour divers besoins.
+                            <p class="card-text mt-4"> 
+                                Création des logiciels c# performants pour divers besoins.
                             </p>
                         </div>
                     </div>
@@ -265,61 +223,69 @@
             </div>
         </div>
     </section>
-    <section class="portfolio" id="portfolio">
+    <section class="portfolio section" id="Portfolio">
         <div class="container-fluid">
-            <div class="row no-gutters">
-                <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb d-flex justify-content-center mb-1">
-                        <li class="breadcrumb-item active">Accueil</li>
-                        <li class="breadcrumb-item active" aria-current="page" id="Profil">Portfolio</li>
-                    </ol>
-                </nav>
-                <h2 class="text-center title-section mb-3">Portfolio</h2>
-                <p class="text-center">Vous trouverez dans cette section quelque uns de mes projets</p>
-            </div>
             <div class="row mt-5 g-0">
-                <div class="col-md-4">
+                <div class="container">
+                    <div class="heading">
+                        <h3><b>Portfolio</b></h3>
+                        <h6 class="font-lite-black"><b>VOUS TROUVEREZ DANS CETTE SECTION QUELQUE UNS DE MES PROJETS</b></h6>
+                    </div>
+                </div>
+                <div class="col-md-6">
                     <div class="portfolio-work portfolio-img" style="background: url(<?php echo Chemins::IMAGES . 'Ap_web.png' ?>);">
-                        <a href="index.php?controller=ShowPages&action=afficherDetails">
+                        <a href="https://github.com/SofianBelbacha/ProjetWeb_BTSSIO" target="_blank">
                         <div class="overlay">
                             <div class="text-center-overlay p-4">
-                                <h3>Atelier professionnel du bts sio</h3>
+                                <h3>Atelier Professionnel WEB</h3>
                                 <p>Création d'une boutique en ligne dans dans un contexte de projet de fin d'année de
                                     bts</p>
                             </div>
                         </div></a>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <div class="portfolio-work portfolio-img"
                         style="background: url(<?php echo Chemins::IMAGES . 'tentation_voyage-image.png' ?>);">
-                        <div class="overlay">
-                            <div class="text-center-overlay p-4">
-                                <h3>Stage BTS 8 semaines</h3>
-                                <p>Création d'une boutique en ligne dans dans un contexte de projet de fin d'année de
-                                    bts</p>
+                        <a href="https://www.tentationvoyage.fr" target="_blank">
+                            <div class="overlay">
+                                <div class="text-center-overlay p-4">
+                                    <h3>Création d'un site de Voyage</h3>
+                                    <p>Participation à la création du site de voyage TentatioVoyage, développé dans le cadre de mon stage </p>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <div class="portfolio-work portfolio-img" style="background: url(<?php echo Chemins::IMAGES . 'ap_windows.png' ?>);">
-                        <div class="overlay">
-                            <div class="text-center-overlay p-4">
-                                <h3>Atelier professionnel du bts sio</h3>
-                                <p>Création d'une application de bureau dans dans un contexte de projet de fin d'année
-                                    de bts</p>
+                        <a href="https://github.com/SofianBelbacha/ProjetApplication_BTSSIO" target="_blank">
+                            <div class="overlay">
+                                <div class="text-center-overlay p-4">
+                                    <h3>Atelier Professionnel Appli bureau</h3>
+                                    <p>Création d'une application de bureau dans dans un contexte de projet de fin d'année
+                                        de bts</p>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
-                <div class="col-md-4">
+<!--                <div class="col-md-4">
                     <div class="portfolio-work portfolio-img" style="background: url(<?php echo Chemins::IMAGES . 'projet_Deezer.png' ?>);"></div>
+                </div>-->
+                <div class="col-md-6">
+                    <div class="portfolio-work portfolio-img" style="background: url(<?php echo Chemins::IMAGES . 'projet_symfony.png' ?>);">
+                        <a href="https://github.com/SofianBelbacha/Projet_Decouverte_Symfony" target="_blank">
+                            <div class="overlay">
+                                <div class="text-center-overlay p-4">
+                                    <h3>Découverte du Framework Symfony</h3>
+                                    <p>Création d'une Application de Bibliothèque Virtuelle dans le Cadre d'un Cours sur le Framework</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="portfolio-work portfolio-img" style="background: url(<?php echo Chemins::IMAGES . 'projet_zikboutik.png' ?>);"></div>
-                </div>
-                <div class="col-md-4">
+<!--                <div class="col-md-4">
                     <div class="portfolio-work portfolio-img" style="background: url(<?php echo Chemins::IMAGES . 'projet_Trott.png' ?>);">
                         <div class="overlay">
                             <div class="text-center-overlay p-4">
@@ -328,7 +294,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>-->
             </div>
         </div>
     </section>

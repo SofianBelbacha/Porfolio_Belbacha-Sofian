@@ -3,10 +3,11 @@ session_start();
 ob_start();
 
 require_once 'config/chemins.class.php';
-
 require Chemins::VENDOR . 'autoload.php';
-
+require_once Chemins::CONFIGS . 'mysql_config.class.php';
+require_once Chemins::MODELE . 'gestion_portfolio.class.php';
 require Chemins::VUES . 'entete.php';
+
 $whoops = new \Whoops\Run;
 $whoops->pushHandler(new \Whoops\Handler\PrettyPageHandler);
 $whoops->register();

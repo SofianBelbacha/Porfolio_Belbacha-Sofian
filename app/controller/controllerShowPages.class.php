@@ -13,8 +13,12 @@ class controllerShowPages {
         require Chemins::VUES . 'accueil.php';
     }
 
-    public function afficherDetails() {
-        require Chemins::VUES . 'details_portfolio.php';
+    public function afficherDetailsWeb() {
+        require Chemins::VUES . 'details_web.php';
+    }
+    
+    public function afficherDetailsProjetVoyage() {
+        require Chemins::VUES . 'details_voyage.php';
     }
 
 

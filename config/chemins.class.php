@@ -4,8 +4,8 @@ class Chemins {
     
     const VUES = "app/Views/";
     
-    const VUES_ADMIN = "application/vues/partie_admin/";
-        
+    const MODELE = "app/modele/";
+            
     const CONTROLEURS = "app/controller/";
 
     const IMAGES = "public/image/";

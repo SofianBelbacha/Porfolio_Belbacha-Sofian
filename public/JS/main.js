@@ -19,7 +19,7 @@ window.addEventListener('scroll', function() {
 });
 
 function openPDF() {
-    window.open("image/CV_Belbacha.pdf", '_blank');
+    window.open("public/image/CV_Belbacha.pdf", '_blank');
   }
 
 //document.querySelector('.overlay').addEventListener('click', function() {

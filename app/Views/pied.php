@@ -1,20 +1,20 @@
-    <section class="contact_area section_gap_bottom" id="contact_area">
+    <section class="contact_area section_gap_bottom section" id="contact_area">
         <div class="container">
             <div class="row no-gutters">
-                <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb d-flex justify-content-center mb-1">
-                        <li class="breadcrumb-item active">Accueil</li>
-                        <li class="breadcrumb-item active" aria-current="page" id="Profil">Contact</li>
-                    </ol>
-                </nav>
-                <h2 class="text-center title-section mb-3">Contact</h2>
-                <p class="text-center mb-5">N'hésiter pas à me contacter pour toute renseignement</p>
+                <div class="heading">
+                    <h3><b>Contact</b></h3>
+                    <h6 class="font-lite-black"><b>N'HÉSITEZ PAS À ME CONTACTER POUR TOUT RENSEIGNEMENT.</b></h6>
+                </div>
             </div>
             <div class="col-12">
-                <iframe
+<!--                <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2905.3474399897323!2d3.2834153753299264!3d43.26509647744706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b11a930e31872d%3A0xe8fc33e08a0f4834!2sLyc%C3%A9e%20Marc%20Bloch!5e0!3m2!1sfr!2sfr!4v1698225773785!5m2!1sfr!2sfr"
                     class="mapBox" width="1110" height="420" style="border:0; max-width: 100%;" allowfullscreen=""
-                     referrerpolicy="no-referrer-when-downgrade"></iframe>
+                     referrerpolicy="no-referrer-when-downgrade"></iframe>-->
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2416.639571545725!2d-0.5024303448903557!3d44.89995537272768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDTCsDU0JzAwLjAiTiAwwrAzMCcwMC4wIlc!5e0!3m2!1sfr!2sfr!4v1721397379411!5m2!1sfr!2sfr" 
+                    class="mapBox" width="1110" height="420" style="border:0; max-width: 100%;" allowfullscreen=""
+                 referrerpolicy="no-referrer-when-downgrade"></iframe>            
             </div>
             <div class="row mt-4">
                 <div class="col-lg-3">
@@ -32,7 +32,7 @@
                         <div class="info_item">
                             <i class="lnr lnr-envelope"></i>
                             <h6><a href="#">sofianbelbacha@gmail.com</a></h6>
-                            <p>Envoyez-nous votre requête à tout moment!</p>
+                            <p>Envoyez-moi votre requête à tout moment!</p>
                         </div>
                     </div>
                 </div>
@@ -66,7 +66,7 @@
                         <div class="col-md-12">
                             <div class="text-end">
                                 <button type="submit" value="submit" 
-                                    class="btn btn-danger btn-md border border-dark-subtle">Envoyer Message</button>
+                                    class="btn btn-danger btn-md border border-dark-subtle">Envoyer</button>
                             </div>
                         <!-- Modal pour afficher les erreurs -->
                             <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="errorModalLabel" aria-hidden="true">
@@ -107,7 +107,7 @@
                     <div class="ftco-footer-widget mb-4">
                         <h2 class="ftco-heading-2">A propos</h2>
                         <p>Je suis une personne très motivé prête à mettre en œuvre mes connaissances pour 
-                            répondre à vos besoins en matière de création de sites web.
+                            répondre à vos besoins en matière de création de sites web et applications bureau.
                         </p>
                         <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
                             <li class="ftco-animate fadeInUp ftco-animated"><a href="#"><span
