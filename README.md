@@ -1,18 +1,12 @@
 # Mon Portfolio
 
 ## Description
-Ce projet est mon portfolio personnel où je présente mes compétences, mes projets et mon expérience professionnelle. Il est conçu pour offrir un aperçu complet de mes travaux et de mes réalisations.
+Ce projet est mon portfolio personnel, conçu pour offrir un aperçu détaillé et complet de mon parcours et de mes compétences. Il sert de vitrine pour mes réalisations, mettant en avant les projets sur lesquels j'ai travaillé et les compétences que j'ai acquises au fil du temps. 
 
-## Fonctionnalités
-- Présentation personnelle
-- Liste des projets avec descriptions et liens
-- Section de compétences
-- Expérience professionnelle
-- Formulaire de contact
+## Langages utilisés
 
-## Installation
-Pour cloner et exécuter ce projet, veuillez suivre les étapes ci-dessous :
+- HTML, CSS, JS
+- Framework : Bootstrap
+- Backend : PHP (notamment pour gérer l'inclusion des pages et le formulaire de contact grâce à la bibliothèque [PHPMailer](https://github.com/PHPMailer/PHPMailer))
 
-1. Clonez le dépôt :
-   ```bash
-   git clone https://github.com/SofianBelbacha/Porfolio_Belbacha-Sofian.git
+Le site est accessible en ligne à l'adresse suivante : https://sofianbelbacha.free.nf
