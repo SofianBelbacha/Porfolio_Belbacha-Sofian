@@ -52,7 +52,6 @@
                         </p>
                         <ul class="about-info mt-4 px-md-0 px-2">
                             <li class="d-flex"><span>Nom :</span> <span>Belbacha Sofian</span></li>
-                            <li class="d-flex"><span>Date:</span> <span>24 Septembre 2004</span></li>
                             <li class="d-flex"><span>Adresse:</span> <span>Rue st vincent de paul Béziers</span></li>
                             <li class="d-flex"><span>Code Postal:</span> <span>34500</span></li>
                             <li class="d-flex"><span>Email:</span> <span>sofianbelbacha@gmail.com</span></li>
@@ -90,6 +89,7 @@
                                 <button type="button" class="btn btn-outline-danger btn-sm mb-1">Bootstrap</button>
                                 <button type="button" class="btn btn-outline-danger btn-sm mb-1">Jquery</button>
                                 <button type="button" class="btn btn-outline-danger btn-sm mb-1">JS</button>
+                                <button type="button" class="btn btn-outline-danger btn-sm mb-1">React JS</button>
                             </div>
                             <div class="progress">
                                 <div class="progress-bar barre2" role="progressbar" style="width: 100.001%; overflow: hidden; background-color: #d1002c;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"><span><strong>Développement Web: Back-End</strong></span></div>
@@ -97,8 +97,11 @@
                             <div class="link-competence">
                                 <h5>Compétences Associées</h5>
                                 <button type="button" class="btn btn-outline-danger btn-sm mb-1">PHP</button>
-                                <button type="button" class="btn btn-outline-danger btn-sm mb-1">C#</button>
+                                <button type="button" class="btn btn-outline-danger btn-sm mb-1">C#, .NET Framework, .NET Core</button>
                                 <button type="button" class="btn btn-outline-danger btn-sm mb-1">Symfony</button>
+                                <button type="button" class="btn btn-outline-danger btn-sm mb-1">Laravel</button>
+                                <button type="button" class="btn btn-outline-danger btn-sm mb-1">Node.js</button>
+                                <button type="button" class="btn btn-outline-danger btn-sm mb-1">Express.js</button>
                             </div>
                             <div class="progress">
                                 <div class="progress-bar barre3" role="progressbar" style="width: 94.9997%; overflow: hidden; background-color: #d1002c;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"><span><strong>Base de Donnée</strong></span></div>
@@ -169,6 +172,67 @@
                             <p class="margin-tb-30">Le baccalauréat STMG m'a doté de compétences variées en gestion,
                             économie et droit, m'offrant une base solide pour poursuivre mes études ou intégrer le monde professionnel.
                             </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>   
+    <section class="education-section section" id="Parcours">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="heading">
+                        <h3><b>Experiences</b></h3>
+                        <h6 class="font-lite-black"><b>MES DERNIÈRES EXPERIENCES</b></h6>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="education-wrapper">
+                        <div class="education margin-b-50">
+                            <h4><b>Développeur web PHP</b></h4>
+                            <h5 class="font-yellow"><b>ADSL Informatique Sérignan (34)</b></h5>
+                            <h6 class="font-lite-black margin-t-10">mai 2023 - juin 2023 · 2 mois PUIS</h6>
+                            <h6 class="font-lite-black margin-t-10">janv. 2024 - mars 2024 · 3 mois</h6>
+                            <p class="margin-tb-30">𝐓𝐞𝐧𝐭𝐚𝐭𝐢𝐨𝐧 𝐕𝐨𝐲𝐚𝐠𝐞 est un site de voyage intuitive et interactive, permettant aux utilisateurs 
+                                de rechercher des destinations adaptées à leurs envies, de planifier des itinéraires sur mesure et de réserver 
+                                facilement leurs séjours. Grâce à une interface conviviale et riche en fonctionnalités, le site offre également 
+                                des recommandations personnalisées et des guides pratiques pour aider les voyageurs à prendre des décisions éclairées 
+                                et à vivre des expériences inoubliables.
+                                <br>
+                                <br>
+                                Lors de ce stage, j’ai principalement travaillé sur une fonctionnalité clé du site de voyage : 
+                                la mise en place d’une interface permettant aux utilisateurs de remplir des formulaires interactifs 
+                                pour générer des roadtrips personnalisés au format PDF. Cette partie du site vise à offrir une solution 
+                                pratique et intuitive, aidant les voyageurs à organiser leurs itinéraires de manière structurée et à 
+                                disposer d’un document téléchargeable regroupant toutes les informations nécessaires pour leur aventure. 
+                                Pour mener à bien cette mission, plusieurs étapes ont été menées :
+                            </p>
+                            <ul class="list margin-b-30 p-0">
+                                <li>𝗔𝗻𝗮𝗹𝘆𝘀𝗲 𝗱𝗲𝘀 𝗯𝗲𝘀𝗼𝗶𝗻𝘀 𝗲𝘁 𝗰𝗮𝗵𝗶𝗲𝗿 𝗱𝗲𝘀 𝗰𝗵𝗮𝗿𝗴𝗲𝘀 : Collaboration pour identifier les besoins clients et rédiger 
+                                    un cahier des charges détaillé.
+                                </li>
+                                <li>𝗖𝗼𝗻𝗰𝗲𝗽𝘁𝗶𝗼𝗻 𝗱’𝘂𝗻𝗲 𝗯𝗮𝘀𝗲 𝗱𝗲 𝗱𝗼𝗻𝗻𝗲́𝗲𝘀 𝗠𝘆𝗦𝗤𝗟 : Création d’une base de données structurée et performante, 
+                                    facilitant une gestion des données et améliorant la rapidité des requêtes de 40 %.
+                                </li>
+                                <li>𝗘𝘅𝗽𝗹𝗼𝗶𝘁𝗮𝘁𝗶𝗼𝗻 𝗱𝗲𝘀 𝗱𝗼𝗻𝗻𝗲́𝗲𝘀 : Utilisation de SQL pour extraire et analyser des données 
+                                    clés, facilitant la prise de décision.
+                                </li>
+                                <li>𝗔𝗿𝗰𝗵𝗶𝘁𝗲𝗰𝘁𝘂𝗿𝗲 𝗠𝗩𝗖 𝗲𝗻 𝗣𝗛𝗣 : Conception et développement de l’architecture du site en PHP en 
+                                    utilisant le modèle MVC, optimisant la modularité et la maintenance du code.  
+                                </li>
+                                <li>𝗠𝗶𝘀𝗲 𝗲𝗻 𝗽𝗹𝗮𝗰𝗲 𝗱’𝘂𝗻𝗲 𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗲 𝗰𝗼𝗹𝗹𝗮𝗯𝗼𝗿𝗮𝘁𝗶𝘃𝗲 : Définition et implémentation d'outils et de processus de 
+                                    travail pour améliorer l’efficacité et la communication au sein de l’équipe.
+                                </li>
+                                <li>𝗔𝗷𝗼𝘂𝘁 𝗱𝗲 𝗳𝗼𝗻𝗰𝘁𝗶𝗼𝗻𝗻𝗮𝗹𝗶𝘁𝗲́𝘀 : Développement et intégration de nouvelles fonctionnalités dans un site 
+                                    existant, améliorant l’expérience utilisateur et la performance du site.
+                                </li>
+                                <li>𝗥𝗲́𝘀𝗼𝗹𝘂𝘁𝗶𝗼𝗻 𝗱𝗲 𝗯𝘂𝗴𝘀 : Résolution de bugs en analysant et en corrigeant des dysfonctionnements,
+                                    renforçant la stabilité du site et réduisant les incidents signalés de 50 %.
+                                </li>
+                                <li> 𝗡𝗼𝗿𝗺𝗲𝘀 𝗱𝗲 𝘀𝗲́𝗰𝘂𝗿𝗶𝘁𝗲́ : Implémentation de normes de sécurité , garantissant la protection des données 
+                                    utilisateurs et la conformité aux normes de sécurité en vigueur (RGPD, etc.)                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
